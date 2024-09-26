@@ -1,0 +1,20 @@
+22:28:57 **** Incremental Build of configuration Debug for project IDEExe ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/ex10.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/ex10.d" -MT"Core/Src/ex10.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/ex10.o"
+arm-none-eabi-gcc -o "IDEExe.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\BKU\Se241\CO3009_MM\Lab1\IDE_Lab1.6-10\IDEExe\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IDEExe.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: IDEExe.elf
+ 
+arm-none-eabi-size   IDEExe.elf 
+arm-none-eabi-objdump -h -S  IDEExe.elf  > "IDEExe.list"
+arm-none-eabi-objcopy  -O ihex  IDEExe.elf  "IDEExe.hex"
+   text	   data	    bss	    dec	    hex	filename
+   5056	     20	   1572	   6648	   19f8	IDEExe.elf
+arm-none-eabi-objcopy  -O binary  IDEExe.elf  "IDEExe.bin"
+Finished building: default.size.stdout
+ 
+Finished building: IDEExe.hex
+Finished building: IDEExe.list
+Finished building: IDEExe.bin
+ 
+ 
+ 

@@ -1,0 +1,10 @@
+2024-09-22 17:11:54,109 [INFO] Activator:177 - 
+
+
+2024-09-22 17:11:54,111 [INFO] Activator:178 - !SESSION log4j initialized
+2024-09-22 17:12:26,198 [INFO] Activator:177 - 
+
+
+2024-09-22 17:12:26,200 [INFO] Activator:178 - !SESSION log4j initialized
+2024-09-22 17:14:31,437 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {s}->https://download.eclipse.org:443: Socket operation on nonsocket: configureBlocking
+2024-09-22 17:14:31,440 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443

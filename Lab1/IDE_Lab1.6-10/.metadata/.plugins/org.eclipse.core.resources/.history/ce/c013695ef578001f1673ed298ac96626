@@ -1,0 +1,44 @@
+/*
+ * ex10.c
+ *
+ *  Created on: Sep 22, 2024
+ *      Author: NGUYEN GIAP
+ */
+#include "ex7.h"
+#include "ex8.h"
+#include "ex9.h"
+#include "ex10.h"
+
+void(int *h, int *m, int *s)
+{
+	if (*s == 60){
+		*s = 0;
+		*m++;
+	}
+	if (*m == 60){
+		*m = 0;
+		*h++;
+	}
+	if (*h == 12)
+		*h = 0;
+}
+
+
+void exercise10()
+{
+	//set original state
+	clearAllClock();
+
+	int _hour = 0, _minute = 0, _second = 0;
+	while(1){
+
+
+		setNumberOnClock(second/5);
+
+
+
+		_second++;
+		HAL_Delay(1000);
+	}
+}
+

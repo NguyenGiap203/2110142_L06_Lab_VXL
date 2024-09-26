@@ -1,0 +1,3 @@
+ex3.c:11:6:resetVState	8	static
+ex3.c:18:6:resetHState	8	static
+ex3.c:24:6:exercise3	16	static

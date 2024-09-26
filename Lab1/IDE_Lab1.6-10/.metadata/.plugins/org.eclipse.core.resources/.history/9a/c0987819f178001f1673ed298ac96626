@@ -1,0 +1,24 @@
+/*
+ * ex10.c
+ *
+ *  Created on: Sep 22, 2024
+ *      Author: NGUYEN GIAP
+ */
+
+
+void exercise10()
+{
+	//set original state
+	HAL_GPIO_WritePin(LED0_GPIO_Port, LED0_Pin, SET);
+
+	int _hour = 0, _minute = 0, _second = 0;
+	while(1){
+		if (_second <= 4)
+
+
+
+		_second++;
+		delay(1000);
+	}
+}
+

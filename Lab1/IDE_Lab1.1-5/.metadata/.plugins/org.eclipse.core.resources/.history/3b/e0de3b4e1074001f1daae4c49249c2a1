@@ -1,0 +1,17 @@
+/*
+ * ex4.c
+ *
+ *  Created on: Sep 16, 2024
+ *      Author: NGUYEN GIAP
+ */
+
+#include <ex4.h>
+
+void exercise4(int count)
+{
+	switch(count)
+	{
+	case 0:
+		HAL
+	}
+}

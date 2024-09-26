@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;IDEExe/Core/Src/ex6.cpp&apos; to &apos;ex6.c&apos;" description="Rename resource &apos;ex6.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/ex6.cpp" name="ex6.c" stamp="1727004342257" updateReferences="true"/>
+</session>

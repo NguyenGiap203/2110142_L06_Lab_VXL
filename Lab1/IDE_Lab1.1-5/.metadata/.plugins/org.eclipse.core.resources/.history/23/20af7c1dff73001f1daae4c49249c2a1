@@ -1,0 +1,31 @@
+/*
+ * Ex1.c
+ *
+ *  Created on: Sep 16, 2024
+ *      Author: NGUYEN GIAP
+ */
+
+void exercise1(int &count, int &state)
+{
+	switch(count)
+	{
+	case 2:
+		if (state)
+		{
+			HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, SET);
+			HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, RESET);
+		}
+		else if (!state)
+		{
+			HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, RESET);
+			HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, SET);
+		}
+		count = 0;
+		state = 1 - state;
+		break;
+	default:
+		count++;
+		HAL_Delay(1000);
+		break;
+	}
+}

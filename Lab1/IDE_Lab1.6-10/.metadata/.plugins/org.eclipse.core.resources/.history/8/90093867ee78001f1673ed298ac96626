@@ -1,0 +1,14 @@
+/*
+ * ex10.c
+ *
+ *  Created on: Sep 22, 2024
+ *      Author: NGUYEN GIAP
+ */
+
+
+void exercise10()
+{
+	int _hour = 0, _minute = 0, _second = 0;
+
+}
+

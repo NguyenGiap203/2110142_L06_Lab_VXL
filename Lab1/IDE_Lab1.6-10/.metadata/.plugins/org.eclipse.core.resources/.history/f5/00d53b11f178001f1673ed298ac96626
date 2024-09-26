@@ -1,0 +1,23 @@
+/*
+ * ex10.c
+ *
+ *  Created on: Sep 22, 2024
+ *      Author: NGUYEN GIAP
+ */
+
+
+void exercise10()
+{
+	//set original state
+
+
+	int _hour = 0, _minute = 0, _second = 0;
+	while(1){
+		if ()
+
+
+		_second++;
+		delay(1000);
+	}
+}
+
